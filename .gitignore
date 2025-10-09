@@ -119,8 +119,8 @@ ehthumbs.db
 Thumbs.db
 
 # Data files (common patterns)
-*.csv
-*.tsv
+# *.csv
+# *.tsv
 *.dat
 *.data
 *.xlsx
