@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "taking-stock-facct"
+version = "0.1.0"
+description = "Topic modelling analysis for the Taking Stock FACCT pol.is export"
+authors = ["Taking Stock Team <team@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+scikit-learn = "^1.4.2"
+sentence-transformers = "^2.7.0"
+transformers = "4.45.2"
+networkx = "^3.3"
+hdbscan = "^0.8.33"
+torch = "^2.2.2"
+nbclient = "^0.10.0"
+nbformat = "^5.10.4"
+ipykernel = "^6.29.4"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"
